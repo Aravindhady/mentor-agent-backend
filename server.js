@@ -5,7 +5,7 @@ const authRoutes = require('./routes/authRoutes');
 const cors = require('cors');
 const errorHandler = require('./middleware/errorHandler');
 const User = require('./models/User');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
 const app = express();
